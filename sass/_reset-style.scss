@@ -1,0 +1,41 @@
+/* ESTRUCTURA DE CSS:
+        SPV= 
+        °SELECTOR= ETIQUETA/CLASE/ID.
+        °PROPIEDAD= ATRIBUTO/CARACTERÍSTICA QUE DA ESTRUCTURA.
+        °VALOR= TAMAÑO O VALOR QUE ADQUIERE ESA PROPIEDAD.*/
+
+/*RESET CSS= ESTILOS RESETEADO PARA TRABAJR DESDE 0
+PARTIMOS DEL LLAMADO "*" = TODO EL DOC HTML*/
+
+/*
+LOS ATRIBUTOS LOS LLAMAMOS DE LA SIGUIENTE MANERA:
+                ID= #
+                CLASS= .
+                ETIQUETA/SELECTOR= POR SU SIMPLE NOMBRE.
+*/
+
+/*
+////////////////////////////////////////////////////////////
+ESTILOS RESET
+////////////////////////////////////////////////////////////
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li , a {
+    display: inline-block;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+#body {
+    max-width: 1440px; /*ANCHO MÁXIMO DECLARADO*/
+    margin: 0 auto; /*CENTRADO DE CONTENIDO HORIZONTALMENTE*/
+}
+#main {
+    min-height: 100vh; /*MAIN OCUPANDO SIEMPRE EL 100% DEL VIEWPORT*/
+}

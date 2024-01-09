@@ -1,0 +1,28 @@
+/*
+////////////////////////////////////////////////////////////
+ESTILOS DEL INDEX / MAIN
+////////////////////////////////////////////////////////////
+*/
+#portadaPrincipal {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#bannerPrincipal {
+    width: 100%;
+    height: auto;
+    background-color: #858585;
+}
+.bannerPrincipal__boxes img {
+    width: 120px;
+}
+.bannerPrincipal__boxes {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    background-color: white;
+}

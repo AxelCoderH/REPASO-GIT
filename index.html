@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--LIBRERÍA DE FONT AWESOME-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="css/style.css">
+        <title>Inicio</title>
+    </head>
+
+    <body id="body">
+        <!--1# CREAMOS EL HEADER-->
+        <header id="header">
+            <nav id="nav">
+                <a href="#"><img src="icons/navbar/pizza.png" alt=""></a>
+                <ul> <!--UNORDER LIST= LISTA DESORDENADA-->
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="pages/pizzas.html">Pizzas</a></li>
+                    <li><a href="pages/ofertas.html">Ofertas</a></li>
+                    <li><a href="pages/conocenos.html">Conocenos</a></li>
+                    <li><a href="pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--2# CREAMOS EL MAIN-->
+        <main id="main">
+
+            <!--ATRIBUTOS EN ORDEN JERARQUICO=  
+                                                !IMPORTANT = encima de todo lo anterior.
+                                                ID = Identifican unicamente al padre o raiz.
+                                                CLASS = Identifican al contenido de la raiz.
+                                                ETIQUETAS = Comunmente utilizadas en HTML.
+            ¡¡IMPORTANTÍSIMO!! 
+
+            LOS ID SOLO SE PUEDEN UTILIZAR UNA SOLA VEZ.
+            LAS CLASS SE PUEDEN REPETIR TANTAS VECES NOSOTROS QUERAMOS.
+            
+            ID= SE UTILIZAN SOLO PARA LAS RAICES Y LOS PADRES.
+            CLASS= SE UTILIZAN SOLO PARA LOS HIJOS O EL CONTENIDO.
+            
+            -->
+
+            <section id="portadaPrincipal">
+                <h1>"Feliz" tiene cinco letras. <br> "Pizza" tiene cinco letras. <br> No es coincidencia.</h1>
+            </section>
+
+            <section id="bannerPrincipal">
+                <article class="bannerPrincipal__art1 bannerPrincipal__boxes">
+                    <img src="images/index/banner/pizza1.png" alt="">
+                    <h1>Pizza# Especial</h1>
+                </article>
+
+                <article class="bannerPrincipal__art2 bannerPrincipal__boxes">
+                    <img src="images/index/banner/pizza2.png" alt="">
+                    <h1>Pizza# Especial</h1>
+                </article>
+
+                <article class="bannerPrincipal__art3 bannerPrincipal__boxes">
+                    <img src="images/index/banner/pizza3.png" alt="">
+                    <h1>Pizza# Especial</h1>
+                </article>
+
+                <article class="bannerPrincipal__art4 bannerPrincipal__boxes">
+                    <img src="images/index/banner/pizza4.png" alt="">
+                    <h1>Pizza# Especial</h1>
+                </article>
+
+                <article class="bannerPrincipal__art5 bannerPrincipal__boxes">
+                    <img src="images/index/banner/pizza5.png" alt="">
+                    <h1>Pizza# Especial</h1>
+                </article>
+
+                <article class="bannerPrincipal__art6 bannerPrincipal__boxes">
+                    <img src="images/index/banner/pizza6.png" alt="">
+                    <h1>Pizza# Especial</h1>
+                </article>
+            </section>
+
+        </main>
+        <!--3# CREAMOS EL FOOTER-->
+        <footer id="footer">
+            <article class="footerLogo">
+                <img class="footerLogoImg" src="images/index/pizza.png" alt="">
+            </article>
+
+            <article class="footerLinks">
+                <ul> <!--UNORDER LIST= LISTA DESORDENADA-->
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="pages/pizzas.html">Pizzas</a></li>
+                    <li><a href="pages/ofertas.html">Ofertas</a></li>
+                    <li><a href="pages/conocenos.html">Conocenos</a></li>
+                    <li><a href="pages/contacto.html">Contacto</a></li>
+                </ul>
+            </article>
+
+            <article class="footerRedes">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </article>
+        </footer>
+    </body>
+</html>
